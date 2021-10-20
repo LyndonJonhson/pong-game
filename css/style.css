@@ -1,0 +1,153 @@
+/* body */
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+/* header */
+
+header{
+    background-color: #1f2421;
+    height: 10vh;
+    width: 100vw;
+    padding-left: 70px;
+    display: flex;
+    align-items: center;
+}
+
+header .fa-brain{
+    color: #216869;
+    font-size: 45px;
+}
+
+header h1{
+    color: #216869;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+/* main */
+
+main{
+    background-color: #216869;
+    height: 80vh;
+    width: 100vw;
+}
+
+/* panel-container */
+
+.panel-container{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    padding-left: 15%;
+    padding-top: 10px;
+}
+
+.panel-container .div-points{
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.panel-container .points{
+    color: #ddd;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 5px 0 0;
+}
+
+.panel-container .div-buttons{
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.panel-container button{
+    width: 110px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    background-color: #ddd;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    outline: none;
+}
+
+.panel-container button:hover{
+    background-color: #aaa;
+}
+
+/* game-container */
+
+.game-container{
+    height: 70vh;
+    width: 100vw;
+    padding-left: 15%;
+    padding-right: 15%;
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+
+#game-area{
+    width: 960px;
+    height: 380px;
+    border: 1px solid #1f2421;
+    background-color: #1f2421;
+    position: relative;
+}
+
+#ball{
+    position: absolute;
+    top: 180px;
+    left: 470px;
+    width: 20px;
+    height: 20px;
+    background-color: #49a078;
+    border-radius: 10px;
+}
+
+.bar{
+    position: absolute;
+    width: 20px;
+    height: 140px;
+    background-color: #49a078;
+    top: 120px;
+}
+
+.left{
+    left: 10px;
+}
+
+.right{
+    left: 930px;
+}
+
+/* footer */
+
+footer{
+    background-color: #1f2421;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: #ddd;
+    font-size: 20px;
+}
+
+footer p a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #216869;
+}

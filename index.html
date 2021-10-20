@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Pong Game</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+</head>
+<body>
+    <header>
+        <i class="fas fa-brain"></i>
+        <h1>Pong Game</h1>
+    </header>
+    <main>
+        <div class="panel-container">                
+                <div class="div-points">
+                    <p class="points">Your points:</p>
+                    <p class="points" id="player-points">0</p>
+                    <p class="points">CPU points:</p>
+                    <p class="points" id="cpu-points">0</p>
+                </div>
+                <div class="div-buttons">
+                    <button id="btn-start">Start</button>
+                    <button id="btn-pause">Pause</button>
+                    <button id="btn-restart">Restart</button>
+                </div>
+        </div>
+        <div class="game-container">
+            <div id="game-area">
+                <div id="ball"></div>
+                <div id="player" class="bar left"></div>
+                <div id="cpu" class="bar right"></div>
+            </div>   
+        </div>
+    </main>
+    <footer>
+        <p>Desenvolvido por: <a href="https://github.com/LyndonJonhson" target="_blank">Lyndon Jonhson</a></p>
+    </footer>
+    <script src="https://kit.fontawesome.com/a9aa051110.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
